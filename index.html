@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recipe App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="firstblock">
+      <div class="logo"></div>
+      <div class="secondblock">
+        <div class="heading">
+          <br />
+          <br />
+          <h1>Find a Recipe</h1>
+        </div>
+        <br />
+        <br />
+
+        <div class="search_bar">
+          <input
+            class="src_bar"
+            type="text"
+            name="search"
+            placeholder="Type Your recipe in here"
+          />
+          <button type="button" onclick="searchRecipe()" class="src_btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <br />
+        <br />
+      </div>
+
+      <div class="details-area">
+        <div class="logo2">
+          <h1>Your Search Result:</h1>
+        </div>
+
+        <div class="food-items"></div>
+        <div class="result-div" id="result"></div>
+      </div>
+
+      <div class="foot">
+        <div class="foot_img1">
+          <img src="./image/pexels-james-ampong-quilario-5618848.jpg" alt="" />
+        </div>
+        <div class="foot_img1">
+          <img src="./image/pexels-mohamad-sadek-10361458.jpg" alt="" />
+        </div>
+        <div class="foot_img1">
+          <img src="./image/pexels-suhairy-tri-yadhi-11912788.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="footer">
+        <h6>Copyright @ 2024 Sanusi Samson.All right reserved</h6>
+        <div class="btn_img">
+          <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+          <a href="http://"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="http://"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <script src="recipe.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
